@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>Page title here</title>
+
+
+</head>
+<body>
+
+<form name="" method="POST" action="login-user.php">
+<h3>Registration Form</h3>
+<label>Full Name</label><br>
+<input type="text" name="name" placeholder="Full Name" size="30" maxlength="50" value="">
+<br><br>
+<label>Email</label><br>
+<input type="email" placeholder="Email ID" size="30" maxlength="50" value="" name="email">
+<br><br>
+<label>Password</label><br>
+<input type="password" placeholder="8 Digit PIN" size="30" maxlength="8" name="password">
+<br><br>
+<label>DOB</label><br>
+<input type="date" name="dob">
+<br><br>
+<label>Mobile</label><br>
+<input type="phone" name="phone">
+<br><br>
+
+<label>Describe yourself</label><br>
+<textarea rows="10" cols="100" name="" placeholder="Describe yourself in 500 Character"></textarea>
+<br><br>
+
+<label>Gender</label><br>
+<input type="radio" value="M" name="gender" checked> Male
+<input type="radio" value="F" name="gender"> Female
+<br><br>
+
+<label>Skill</label><br>
+<input type="checkbox" value="html" name="skill-html"> HTML
+<input type="checkbox" value="css" name="skill-css"> CSS
+<input type="checkbox" value="js" name="skill-js"> JS
+<input type="checkbox" value="react" name="skill-react"> React
+<input type="checkbox" value="angular" name="skill-angular"> Angular
+<br><br>
+
+<label>Field of Study</label><br>
+<select name="study-field">
+	<option value="none">Select your field</option>
+	<option value="arts">Arts</option>
+	<option value="science">Science</option>
+	<option value="commerce">Commerce</option>
+	<option value="humanities">Humanities</option>
+	<option value="engg">Engineering</option>
+	<option value="medical">Medical</option>
+	<option value="other">Other</option>
+</select>
+<br><br>
+
+<label>Attach Resume</label><br>
+<input type="file" name="resume">
+<br><br>
+
+<input type="submit" value="Send Profile" name="submit">
+<input type="reset" value="Cancel" name="clear">
+<input type="button" value="Change Background" name="">
+
+
+
+<!--
+radio 	: multiple option and single selection
+checkbox : multiple option and multiple selection
+select	: list of multiple option and single / multiple selection
+-->
+
+
+</form>
+
+</body>
+</html>
